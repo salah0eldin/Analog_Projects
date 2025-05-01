@@ -1,0 +1,530 @@
+<!DOCTYPE LAM_FILE>
+<LIBRARY_DATA>
+  <VERSION NUMBER="0.3" />
+  <PHYSICAL>
+    <COMPONENT_TYPE_GROUPS>
+      <LIB NAME="tsmcN65" >
+        <COMPONENT_TYPE_GROUP NAME="nmos" >
+          <COMP_CLASS>NMOS</COMP_CLASS>
+          <WIDTH>w</WIDTH>
+          <ACTIVE_LP>OD drawing</ACTIVE_LP>
+          <FOLD_THRESH>1e-05</FOLD_THRESH>
+        </COMPONENT_TYPE_GROUP>
+        <COMPONENT_TYPE_GROUP NAME="pmos" >
+          <COMP_CLASS>PMOS</COMP_CLASS>
+          <WIDTH>w</WIDTH>
+          <ACTIVE_LP>OD drawing</ACTIVE_LP>
+          <FOLD_THRESH>1e-05</FOLD_THRESH>
+        </COMPONENT_TYPE_GROUP>
+      </LIB>
+    </COMPONENT_TYPE_GROUPS>
+    <MAPPINGS>
+      <LIB NAME="tsmcN65" >
+        <CELL NAME="nch" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25_dnw" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25_dnw_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25_dnw_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25_dnwod33" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25_dnwod33_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25_dnwod33_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25_dnwod33x" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25_dnwud18" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25_dnwud18_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25_dnwud18_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25_dnwud18x" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25_dnwx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25od33" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25od33_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25od33_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25od33x" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25ud18" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25ud18_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25ud18_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25ud18x" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_25x" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_dnw" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_dnw_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_dnw_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_dnwx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_hvt" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_hvt_dnw" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_hvt_dnw_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_hvt_dnw_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_hvt_dnwx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_hvt_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_hvt_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_hvtx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_lvt" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_lvt_dnw" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_lvt_dnw_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_lvt_dnw_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_lvt_dnwx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_lvt_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_lvt_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_lvtx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_na" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_na25" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_na25_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_na25_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_na25od33" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_na25od33_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_na25od33_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_na25od33x" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_na25x" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_na_mac" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_na_macx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nch_nax" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="nchx" >
+          <COMPONENT_TYPE>
+            <NAME>nmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_25" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_25_mac" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_25_macx" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_25od33" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_25od33_mac" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_25od33_macx" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_25od33x" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_25ud18" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_25ud18_mac" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_25ud18_macx" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_25ud18x" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_25x" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_hvt" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_hvt_mac" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_hvt_macx" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_hvtx" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_lvt" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_lvt_mac" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_lvt_macx" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_lvtx" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_mac" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pch_macx" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+        <CELL NAME="pchx" >
+          <COMPONENT_TYPE>
+            <NAME>pmos</NAME>
+            <LIB>tsmcN65</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+    </MAPPINGS>
+  </PHYSICAL>
+</LIBRARY_DATA>

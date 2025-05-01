@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--StateFileType saveLoadState-->
+<topLevel>
+    <SimpleProp Name="stateFileVersion" Value="@(#)$CDS: virtuoso version 6.1.7-64b 11/09/2015 12:45 (sjfnl165) $" Type="string" />
+    <SimpleProp Name="currentHistory" Value="/home/cadence/simulation/proj1/Biquad/adexl/results/data/Interactive.68" Type="stringValue" />
+    <SimpleProp Name="currentContext" Value="__historyDirStr__/1/proj1:Biquad:1/psf" Type="stringValue" />
+    <IndexedProp Name="resultsDirMappingList">
+        <SimpleProp Name="__resDirStr_0" Value="/home/cadence/simulation/proj1/Biquad/adexl/results/data/Interactive.68/1/proj1:Biquad:1/psf" Type="stringValue" />
+    </IndexedProp>
+    <IndexedProp Name="graphFileList">
+        <SimpleProp Value="/home/cadence/Desktop/IC_PROJ1/plots/sin_0.grf" Type="stringValue" />
+    </IndexedProp>
+</topLevel>

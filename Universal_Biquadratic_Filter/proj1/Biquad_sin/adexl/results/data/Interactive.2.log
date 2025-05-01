@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Apr 11 09:27:16 2025 
+Best design point: 1
+Design specs: 
+	proj1:Biquad_sin:1	corner	Nominal - 
+	VT("/Vin")		Error	No
+Design parameters: 
+	C		10p
+	f		1M
+	H0		1
+	Q		1.7
+	R		3.183k
+
+Interactive.2
+Number of points completed: 3
+Number of simulation errors: 3
+Interactive.2 completed. 
+Current time: Fri Apr 11 09:27:23 2025 

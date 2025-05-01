@@ -1,0 +1,3 @@
+SOFTINCLUDE /usr/local/cadence/IC617/share/cdssetup/cds.lib
+DEFINE proj1 /home/cadence/Desktop/test/proj1
+DEFINE proj1 /home/cadence/Desktop/proj1/proj1

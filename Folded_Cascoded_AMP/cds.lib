@@ -1,0 +1,3 @@
+SOFTINCLUDE /usr/local/cadence/IC617/share/cdssetup/cds.lib
+DEFINE tsmcN65 /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/tsmcN65
+DEFINE Folded_Cascoded_AMP_Lib /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib

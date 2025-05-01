@@ -1,0 +1,83 @@
+\# Program start time UTC 2025.04.15 13:59:46.010
+\# Local time Tuesday 15 April 2025, 9:59 am
+\o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 11/09/2015 12:45 (sjfnl165) $
+\o Hierarchy:		/usr/local/cadence/IC617/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.7-64b.78  (64-bit addresses)
+\# Command line:	/usr/local/cadence/IC617/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso21357 -mpshost berkeley -davinciService DaVinciService_21357_1744725581 -log /home/cadence/Desktop/proj1/logs_cadence/logs0/Job0.log -licenseLockFileName /home/cadence/Desktop/proj1/.tmp_cadence/.berkeley_21357 -nograph -nostdin -axlChildIdFlag 0
+\# Host name (type):	berkeley (x86_64)
+\# Operating system:	Linux 3.16.0-4-amd64 #1 SMP Debian 3.16.36-1+deb8u2 (2016-10-19)
+\# Linux /etc/issue:	Debian GNU/Linux 8 \n \l
+\# X display name (WxH):	berkeley:80 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 21653)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        375 MB
+\# Available memory:	     12,614 MB
+\# System memory:	     14,756 MB
+\# Maximum memory size:	     14,460 MB
+\# Max mem available:	     12,693 MB
+\# Initial memory used:	         80 MB
+\#        process size:	        888 MB
+\# Qt version:		4.8.5
+\# Window Manager:	other
+\# User Name:		cadence
+\o Working Directory:	berkeley:/home/cadence/Desktop/proj1
+\# Process Id:		21661
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\# Memory report: using         193 MB, process size 1,133 MB at UTC 2025.04.15 13:59:50.405
+\w *WARNING* LIB proj1 from File /home/cadence/Desktop/proj1/cds.lib Line 3 redefines
+\w LIB proj1 from the same file (defined earlier.)
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\a _treeSetOpcGUI(t)
+\r t
+\o Loading lce.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
+\o Loading simui.cxt 
+\# Memory report: on exit            198 MB, process size 1,138 MB at UTC 2025.04.15 13:59:53.865
+\# Memory report: peak usage         198 MB, process size 1,138 MB

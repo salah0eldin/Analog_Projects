@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Apr 11 20:21:57 2025 
+Best design point: 1
+Design specs: 
+	proj1:Biquad:1	corner	Nominal - 
+Design parameters: 
+	C		10p
+	H0		1
+	Q		1.7
+	R		3.205k
+
+Interactive.75
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.75 completed. 
+Current time: Fri Apr 11 20:22:02 2025 
