@@ -65,19 +65,19 @@
 				</dependentTests>
 			</var>
 			<var>Vds
-				<value>0.825</value>
+				<value>1.17</value>
 				<dependentTests>
 					<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:Sizing_N_bench:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>Vgs
-				<value>0</value>
+				<value>1.17</value>
 				<dependentTests>
 					<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:Sizing_N_bench:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>Wn
-				<value>9.34u</value>
+				<value>0.5u</value>
 				<dependentTests>
 					<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:Sizing_N_bench:1</dependentTest>
 				</dependentTests>
@@ -97,114 +97,6 @@
 		</plottingoptions>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.2
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test>Folded_Cascoded_AMP_Lib:Sizing_N_bench:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Sizing_N_bench</value>
-							</option>
-							<option>lib
-								<value>Folded_Cascoded_AMP_Lib</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Folded_Cascoded_AMP_Lib:Sizing_N_bench:1_none_Interactive.2</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Sizing_N_bench</value>
-							</option>
-							<option>lib
-								<value>Folded_Cascoded_AMP_Lib</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>Ln
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:Sizing_N_bench:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vds
-						<value>1</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:Sizing_N_bench:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vgs
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:Sizing_N_bench:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Wn
-						<value>10u</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:Sizing_N_bench:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Fri May 2 00:13:40 2025</timestamp>
-			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.2.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.2.rdb</simresults>
-			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_001340387</localpsfdir>
-			<psfdir>/home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.2</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.2</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.2.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.2.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
 		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.3
 			<checkpoint>
 				<corners>
@@ -303,8 +195,7 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Fri May  2 02:26:38 2025
-</timestamp>
+			<timestamp>Fri May 2 02:26:38 2025</timestamp>
 			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.3.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.3.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -417,8 +308,7 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Fri May  2 02:30:33 2025
-</timestamp>
+			<timestamp>Fri May 2 02:30:33 2025</timestamp>
 			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.4.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.4.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -531,8 +421,7 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Fri May  2 02:38:10 2025
-</timestamp>
+			<timestamp>Fri May 2 02:38:10 2025</timestamp>
 			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.5.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.5.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -645,8 +534,7 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Fri May  2 02:40:25 2025
-</timestamp>
+			<timestamp>Fri May 2 02:40:25 2025</timestamp>
 			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.6.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.6.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -759,8 +647,7 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Fri May  2 02:50:22 2025
-</timestamp>
+			<timestamp>Fri May 2 02:50:22 2025</timestamp>
 			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.7.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.7.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -873,8 +760,7 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Fri May  2 02:51:14 2025
-</timestamp>
+			<timestamp>Fri May 2 02:51:14 2025</timestamp>
 			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.8.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.8.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -987,8 +873,7 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Fri May  2 02:52:49 2025
-</timestamp>
+			<timestamp>Fri May 2 02:52:49 2025</timestamp>
 			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.9.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.9.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -1101,8 +986,7 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Fri May  2 02:59:24 2025
-</timestamp>
+			<timestamp>Fri May 2 02:59:24 2025</timestamp>
 			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.10.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.10.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -1215,8 +1099,7 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Fri May  2 03:04:49 2025
-</timestamp>
+			<timestamp>Fri May 2 03:04:49 2025</timestamp>
 			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.11.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.11.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -1228,6 +1111,120 @@
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
 			<runlog>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.11.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.11.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.12
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>Folded_Cascoded_AMP_Lib:Sizing_N_bench:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Sizing_N_bench</value>
+							</option>
+							<option>lib
+								<value>Folded_Cascoded_AMP_Lib</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Folded_Cascoded_AMP_Lib:Sizing_N_bench:1_none_Interactive.12</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Sizing_N_bench</value>
+							</option>
+							<option>lib
+								<value>Folded_Cascoded_AMP_Lib</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>id
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>Ln
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:Sizing_N_bench:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vds
+						<value>1.17</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:Sizing_N_bench:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vgs
+						<value>1.17</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:Sizing_N_bench:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>0.5u</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:Sizing_N_bench:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Fri May  2 08:00:25 2025
+</timestamp>
+			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.12.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.12.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_080025982</localpsfdir>
+			<psfdir>/home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.12</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.12</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_N_bench/adexl/results/data/Interactive.12.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.12.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
