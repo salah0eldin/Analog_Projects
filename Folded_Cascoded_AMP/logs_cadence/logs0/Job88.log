@@ -1,0 +1,92 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = Folded_Cascoded_AMP_Lib
+	Cell         = FinalCircuit
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Folded_Cascoded_AMP_Lib:FinalCircuit:1_none_Interactive.11
+	Results DB   = /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.11.rdb
+	Results Dir  = /home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.11/1/Folded_Cascoded_AMP_Lib:FinalCircuit:1
+	Results Loc  = /home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data
+	Project Dir  = /home/cadence/simulation
+	Setup DB loc = /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl
+	File Encoding = 0
+
+
+*Info*    Spectre controlMode is set "batch".
+
+
+
+
+
+
+*Info*    Run start for Point ID (11 1) on testbench [
+          Folded_Cascoded_AMP_Lib:FinalCircuit:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.11/1/Folded_Cascoded_AMP_Lib:FinalCircuit:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.11/1/Folded_Cascoded_AMP_Lib:FinalCircuit:1
+
+
+*Info*    Creating Netlist for Point ID (11 1)
+
+generate netlist...
+Begin Incremental Netlisting May  1 19:58:11 2025
+WARNING (OSSHNL-225): The design variable 'V', used in the last netlisting session in the current
+run directory is not used in this netlisting session. The netlist(s) generated
+in the last netlisting session cannot be reused for incremental netlisting.
+Therefore re-netlisting the design.
+
+End netlisting May  1 19:58:11 2025
+
+Netlisting Statistics:
+	Number of components:   24
+
+	Elapsed time:          1.0s (24.00/s)
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          Folded_Cascoded_AMP_Lib:FinalCircuit:1 ] for Point ID (11
+          1).
+
+Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.11/1/Folded_Cascoded_AMP_Lib:FinalCircuit:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (11 1) on testbench [
+          Folded_Cascoded_AMP_Lib:FinalCircuit:1 ].
+
+
+
+
+

@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/18/2015 00:06 (sjfnl678) $
 \o Sub version:		sub-version  p009 
-\o Arguments:		-unmapped -mpssession virtuoso17905 -mpshost berkeley 
+\o Arguments:		-unmapped -mpssession virtuoso20954 -mpshost berkeley 
 \o Working Directory:	berkeley:/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP
 \o 64-bit offsets
 \o Qt version: 		4.8.5
@@ -12,201 +12,178 @@
 \o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
-\a nrResizeWindow(cdsLibManager list(0 31 1916 991))
+\a nrResizeWindow(cdsLibManager list(30 31 1886 991))
 \a cdsLibManager->libListBox->value = "Folded_Cascoded_AMP_Lib"
 \a cdsLibManager->libLineEdit->value = "Folded_Cascoded_AMP_Lib"
 \a cdsLibManager->cellListBox->value = "Folded_Cascoded_AMP"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "FinalCircuit"
+\a cdsLibManager->cellListBox->value = nil
 \a nrListItemAction(cdsLibManager->cellListBox 0 0)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "FinalCircuit"
 \o MPS request: edit design
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "Folded_Cascoded_AMP_Lib"
 \a cdsLibManager->libLineEdit->value = "Folded_Cascoded_AMP_Lib"
-\a cdsLibManager->cellListBox->value = "Folded_Cascoded_AMP"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = "Folded_Cascoded_AMP"
+\a cdsLibManager->cellListBox->value = "FinalCircuit"
+\a cdsLibManager->cellLineEdit->value = "FinalCircuit"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Sizing_bench_7_8"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrListItemAction(cdsLibManager->cellListBox 1 0)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a cdsLibManager->cellLineEdit->value = "Sizing_bench_7_8"
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "Folded_Cascoded_AMP_Lib"
 \a cdsLibManager->libLineEdit->value = "Folded_Cascoded_AMP_Lib"
-\a cdsLibManager->cellListBox->value = "Sizing_bench_7_8"
-\a cdsLibManager->cellLineEdit->value = "Sizing_bench_7_8"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "FinalCircuit"
+\a cdsLibManager->cellLineEdit->value = "FinalCircuit"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 37 26 2 "Sizing_bench_7_8")
-\a cdsLibManager->copySimpleButton->value = t
-\a basicCopyForm->CategoryCellsEdit->value = "*"
-\a basicCopyForm->CellsSkipLibraries->value = t
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
-\a basicCopyForm->ViewsSkipLibraries->value = t
-\a basicCopyForm->ViewsSkipLibrariesEdit->value = "*"
-\a basicCopyForm->CopyFromLibrary->value = "Folded_Cascoded_AMP_Lib"
-\a basicCopyForm->CopyToLibrary->value = "Folded_Cascoded_AMP_Lib"
-\a basicCopyForm->CopyFromCell->value = "Sizing_bench_7_8"
-\a basicCopyForm->CopyToCell->value = "Sizing_bench_7_8"
-\a basicCopyForm->CellsViewsToCopy->value = "adexl constraint schematic"
-\a basicCopyForm->CellsSkipLibrariesEdit->value = ""
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "US_8ths ahdlLib analogLib basic cdsDefTechLib functional rfExamples rfLib tsmcN65"
-\a basicCopyForm->ViewsSkipLibrariesEdit->value = "US_8ths ahdlLib analogLib basic cdsDefTechLib functional rfExamples rfLib tsmcN65"
-\a nrSetWindowVisibility(basicCopyForm "show")
-\a nrSetCurrentWindow(basicCopyForm)
-\a nrResizeWindow(basicCopyForm list(736 170 444 653))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(basicCopyForm)
-\a basicCopyForm->CopyToCell->value = "Sizing_bench_9_10"
-\a basicCopyForm->CellsCopyAllViews->value = nil
-\a basicCopyForm->OK->value = t
-\o Beginning simple copy to library "Folded_Cascoded_AMP_Lib".
-\o Processing files to be copied...
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(821 344 274 132))
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(821 344 274 132))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "Folded_Cascoded_AMP_Lib"
-\a cdsLibManager->libLineEdit->value = "Folded_Cascoded_AMP_Lib"
-\a cdsLibManager->cellListBox->value = "Sizing_bench_7_8"
-\a cdsLibManager->cellLineEdit->value = "Sizing_bench_7_8"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "US_8ths ahdlLib analogLib basic cdsDefTechLib functional rfExamples rfLib tsmcN65"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Sizing_bench_9_10"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "Sizing_Bench"
 \a nrListItemAction(cdsLibManager->cellListBox 2 0)
-\a cdsLibManager->cellListBox->value = "Sizing_bench_9_10"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
 \o MPS request: edit design
-\a cdsLibManager->cellLineEdit->value = "Sizing_bench_9_10"
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "Folded_Cascoded_AMP_Lib"
 \a cdsLibManager->libLineEdit->value = "Folded_Cascoded_AMP_Lib"
-\a cdsLibManager->cellListBox->value = "Sizing_bench_9_10"
-\a cdsLibManager->cellLineEdit->value = "Sizing_bench_9_10"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "Folded_Cascoded_AMP_Lib"
-\a cdsLibManager->libLineEdit->value = "Folded_Cascoded_AMP_Lib"
-\a cdsLibManager->cellListBox->value = "Sizing_bench_9_10"
-\a cdsLibManager->cellLineEdit->value = "Sizing_bench_9_10"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "Folded_Cascoded_AMP_Lib"
-\a cdsLibManager->libLineEdit->value = "Folded_Cascoded_AMP_Lib"
-\a cdsLibManager->cellListBox->value = "Sizing_bench_9_10"
-\a cdsLibManager->cellLineEdit->value = "Sizing_bench_9_10"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Sizing_Bench"
+\a cdsLibManager->cellLineEdit->value = "Sizing_Bench"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Sizing_bench_7_8"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrListItemAction(cdsLibManager->cellListBox 1 0)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a cdsLibManager->cellLineEdit->value = "Sizing_bench_7_8"
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "Folded_Cascoded_AMP_Lib"
 \a cdsLibManager->libLineEdit->value = "Folded_Cascoded_AMP_Lib"
-\a cdsLibManager->cellListBox->value = "Sizing_bench_7_8"
-\a cdsLibManager->cellLineEdit->value = "Sizing_bench_7_8"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Sizing_Bench"
+\a cdsLibManager->cellLineEdit->value = "Sizing_Bench"
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup1" 50 41 2 "Sizing_Bench")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteBothRadioButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(660 314 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(805 407 337 330))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "Sizing_Bench" from library "Folded_Cascoded_AMP_Lib".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cell 'Folded_Cascoded_AMP_Lib/Sizing_Bench'.
+\o Deletion of 1 cell done.
+\a nrResizeWindow(workingDialogForm list(841 371 268 132))
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Folded_Cascoded_AMP_Lib"
+\a cdsLibManager->libLineEdit->value = "Folded_Cascoded_AMP_Lib"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Folded_Cascoded_AMP_Lib"
+\a cdsLibManager->libLineEdit->value = "Folded_Cascoded_AMP_Lib"
+\a nrResizeWindow(cdsLibManager list(31 31 1885 991))
+\a nrResizeWindow(cdsLibManager list(81 31 1835 991))
+\a nrResizeWindow(cdsLibManager list(82 31 1834 991))
+\a nrResizeWindow(cdsLibManager list(83 31 1833 991))
+\a nrResizeWindow(cdsLibManager list(82 31 1834 991))
+\a nrResizeWindow(cdsLibManager list(30 31 1886 991))
+\a nrResizeWindow(cdsLibManager list(31 31 1885 991))
+\a nrResizeWindow(cdsLibManager list(32 31 1884 991))
+\a nrResizeWindow(cdsLibManager list(33 31 1883 991))
+\a nrResizeWindow(cdsLibManager list(34 31 1882 991))
+\a nrResizeWindow(cdsLibManager list(35 31 1881 991))
+\a nrResizeWindow(cdsLibManager list(36 31 1880 991))
+\a nrResizeWindow(cdsLibManager list(37 31 1879 991))
+\a nrResizeWindow(cdsLibManager list(38 31 1878 991))
+\a nrResizeWindow(cdsLibManager list(39 31 1877 991))
+\a nrResizeWindow(cdsLibManager list(40 31 1876 991))
+\a nrResizeWindow(cdsLibManager list(41 31 1875 991))
+\a nrResizeWindow(cdsLibManager list(61 31 1855 991))
+\a nrResizeWindow(cdsLibManager list(62 31 1854 991))
+\a nrResizeWindow(cdsLibManager list(30 31 1886 991))
+\a nrResizeWindow(cdsLibManager list(30 31 1886 987))
+\a nrResizeWindow(cdsLibManager list(30 31 1886 991))
+\a nrResizeWindow(cdsLibManager list(30 31 1886 987))
+\a nrResizeWindow(cdsLibManager list(30 31 1886 991))
+\a nrResizeWindow(cdsLibManager list(30 31 1886 987))
+\a nrResizeWindow(cdsLibManager list(30 31 1886 991))
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a _lmgrCloseIconify("cdsLibManager" 1)
-                                                                                                             
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 31 1920 999))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Sizing_N"
+\a cdsLibManager->cellListBox->value = nil
+\a nrListItemAction(cdsLibManager->cellListBox 2 0)
+\a cdsLibManager->cellListBox->value = "Sizing_N"
+\o MPS request: edit design
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Folded_Cascoded_AMP_Lib"
+\a cdsLibManager->libLineEdit->value = "Folded_Cascoded_AMP_Lib"
+\a cdsLibManager->cellListBox->value = "Sizing_N"
+\a cdsLibManager->cellLineEdit->value = "Sizing_N"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup1" 22 41 2 "Sizing_N")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrResizeWindow(deleteForm list(660 314 627 425))
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(805 391 337 275))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "Sizing_N" from library "Folded_Cascoded_AMP_Lib".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cell 'Folded_Cascoded_AMP_Lib/Sizing_N'.
+\o Deletion of 1 cell done.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(2 27 268 132))
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Folded_Cascoded_AMP_Lib"
+\a cdsLibManager->libLineEdit->value = "Folded_Cascoded_AMP_Lib"
+\a cdsLibManager->cellLineEdit->value = ""
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Folded_Cascoded_AMP_Lib"
+\a cdsLibManager->libLineEdit->value = "Folded_Cascoded_AMP_Lib"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Folded_Cascoded_AMP_Lib"
+\a cdsLibManager->libLineEdit->value = "Folded_Cascoded_AMP_Lib"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "tsmcN65"
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a cdsLibManager->libLineEdit->value = "tsmcN65"
+\a nrSetCurrentWindow(cdsLibManager)
+\o libManager is exiting.

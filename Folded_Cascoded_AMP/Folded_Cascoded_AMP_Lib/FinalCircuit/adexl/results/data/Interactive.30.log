@@ -1,0 +1,20 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri May  2 05:38:05 2025 
+Best design point: 1
+Design specs: 
+	Folded_Cascoded_AMP_Lib:FinalCircuit:1	corner	Nominal - 
+	gainBwProd(VF("/VOUT"))		151.6M
+	phaseMargin(VF("/VOUT"))		78.51
+	gainMargin(VF("/VOUT"))		-27.46
+Design parameters: 
+	VICAC		0
+	VICDC		1.65
+	VIDAC		1
+	VIDDC		0
+
+Interactive.30
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.30 completed. 
+Current time: Fri May  2 05:38:13 2025 

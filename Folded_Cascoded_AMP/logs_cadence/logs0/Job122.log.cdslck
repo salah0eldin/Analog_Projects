@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      cadence
+HostName                       berkeley.localdomain
+ProcessIdentifier              20301
+ProcessCreationTime_UTC        1746155323
+ProcessCreationTime_Readable   Thu May  1 23:08:43 2025 EDT
+AppIdentifier                  /usr/local/cadence/IC617/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/logs_cadence/logs0/Job122.log
+TimeEditLocked                 Thu May  1 23:08:44 2025 EDT

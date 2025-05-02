@@ -1,20 +1,14 @@
 \o Program:		@(#)$CDS: cdsLibEditor version 6.1.7 - CAT35 10/18/2015 00:07 (sjfnl678) $
 \o Sub version:		sub-version  p009 
-\o Arguments:		-mpssession virtuoso7678 -mpshost berkeley 
+\o Arguments:		-cdslib /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/cds.lib -mpssession virtuoso20954 -mpshost berkeley 
 \o Working Directory:	berkeley:/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP
 \o 64-bit offsets
 \a nrSetWindowVisibility(cdsLibEditor "show")
 \o Qt version: 		4.8.5
+\a nrSetCurrentWindow(cdsLibEditor)
 \a nrListItemAction(cdsLibEditor->mainTable 0 0)
-\o Active cell: 0 0 ""
-\o QUESTION (CLE-232): You must choose one edit format for your new file to continue editing.\n\nMost Cadence tools use only "cds.lib" for the library definition list.\nCadence "cds.lib" is the recommended edit format.\n\nYour edit format choice remains in effect until the new file is saved. 
-\o QUESTION (CLE-233): Cadence Library Path Editor enables saving your edits in either format\nwhen using the "Save As" command. 
-\a nrSetWindowVisibility(newEditFormatDialog "show")
-\a nrSetCurrentWindow(cdsLibEditor)
-\a nrSetCurrentWindow(newEditFormatDialog)
-\a nrResizeWindow(cdsLibEditor list(2 85 500 400))
-\a nrResizeWindow(newEditFormatDialog list(47 136 411 328))
-\a nrSetCurrentWindow(cdsLibEditor)
+\o Active cell: 0 0 "cdsDefTechLib"
+\a nrResizeWindow(cdsLibEditor list(30 58 500 400))
 \a cdsLibEditor->fileExitButton->value = t
 \a nrSetWindowVisibility(cdsLibEditor "hide")
 \a exit(0)

@@ -1,0 +1,1256 @@
+\# Program start time UTC 2025.05.01 18:02:52.351
+\# Local time Thursday 1 May 2025, 2:02 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 11/09/2015 12:45 (sjfnl165) $
+\o Hierarchy:		/usr/local/cadence/IC617/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.7-64b.78  (64-bit addresses)
+\# Command line:	/usr/local/cadence/IC617/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso1907 -mpshost berkeley -davinciService DaVinciService_1907_1746106011 -log /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/logs_cadence/logs0/Job32.log -licenseLockFileName /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/.tmp_cadence/.berkeley_1907 -nograph -nostdin -axlChildIdFlag 32
+\# Host name (type):	berkeley (x86_64)
+\# Operating system:	Linux 3.16.0-11-amd64 #1 SMP Debian 3.16.84-1 (2020-06-09)
+\# Linux /etc/issue:	Debian GNU/Linux 8 \n \l
+\# X display name (WxH):	berkeley:80 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 6063)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        379 MB
+\# Available memory:	     12,039 MB
+\# System memory:	     14,114 MB
+\# Maximum memory size:	     13,815 MB
+\# Max mem available:	     12,119 MB
+\# Initial memory used:	         80 MB
+\#        process size:	        890 MB
+\# Qt version:		4.8.5
+\# Window Manager:	other
+\# User Name:		cadence
+\o Working Directory:	berkeley:/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP
+\# Process Id:		6070
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\a _treeSetOpcGUI(t)
+\r t
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = Folded_Cascoded_AMP_Lib
+\o 	Cell         = Sizing_Bench
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Folded_Cascoded_AMP_Lib:Sizing_Bench:1_none_Interactive.3
+\o 	Results DB   = /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3.rdb
+\o 	Results Dir  = /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/1/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 	Results Loc  = /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data
+\o 	Project Dir  = /home/cadence/simulation
+\o 	Setup DB loc = /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o Loading viva.cxt 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o Loading spectrei.cxt 
+\# Memory report: using         240 MB, process size 1,183 MB at UTC 2025.05.01 18:02:54.414
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Initializing from libInit.il for library tsmcN65...
+\e *Error* getDirFiles: nonexistent or permission denied - "/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/tsmcN65/../skill"
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 1) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vds = "1"
+\o Setting var Vgs = "0"
+\o Setting var W = "1u"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/1/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/1/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 1)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Begin Incremental Netlisting May  1 14:02:56 2025
+\o End netlisting May  1 14:02:56 2025
+\o Loading monte.cxt 
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3 1).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/1/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 1) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 2) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "1.5u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/2/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/2/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:03:01 2025
+\o End netlisting May  1 14:03:01 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3 2).
+\o 
+\# Available memory:         11,824 MB at UTC 2025.05.01 18:03:02.260
+\# Memory report: Maximum memory size now 12,110 MB at UTC 2025.05.01 18:03:02.260
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/2/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 2) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 3) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "2u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/3/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/3/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:03:06 2025
+\o End netlisting May  1 14:03:06 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3 3).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/3/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 3) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 4) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "2.5u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/4/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/4/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:03:11 2025
+\o End netlisting May  1 14:03:11 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3 4).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/4/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 4) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 5) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "3u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/5/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/5/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:03:16 2025
+\o End netlisting May  1 14:03:16 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3 5).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/5/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 5) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 6) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "3.5u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/6/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/6/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:03:21 2025
+\o End netlisting May  1 14:03:21 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3 6).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/6/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 6) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 7) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "4u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/7/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/7/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:03:26 2025
+\o End netlisting May  1 14:03:26 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3 7).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/7/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 7) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 8) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "4.5u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/8/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/8/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:03:30 2025
+\o End netlisting May  1 14:03:31 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3 8).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/8/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 8) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 9) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "5u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/9/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/9/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 9)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:03:35 2025
+\o End netlisting May  1 14:03:35 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3 9).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/9/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 9) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 10) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "5.5u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/10/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/10/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 10)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:03:40 2025
+\o End netlisting May  1 14:03:40 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3
+\o           10).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/10/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 10) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 11) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "6u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/11/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/11/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 11)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:03:45 2025
+\o End netlisting May  1 14:03:45 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3
+\o           11).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/11/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 11) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 12) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "6.5u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/12/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/12/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 12)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:03:50 2025
+\o End netlisting May  1 14:03:50 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3
+\o           12).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/12/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 12) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 13) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "7u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/13/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/13/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 13)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:03:55 2025
+\o End netlisting May  1 14:03:55 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3
+\o           13).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/13/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 13) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 14) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "7.5u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/14/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/14/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 14)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:03:59 2025
+\o End netlisting May  1 14:03:59 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3
+\o           14).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/14/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 14) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 15) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "8u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/15/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/15/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 15)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:04:04 2025
+\o End netlisting May  1 14:04:04 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3
+\o           15).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/15/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 15) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 16) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "8.5u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/16/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/16/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 16)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:04:09 2025
+\o End netlisting May  1 14:04:09 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3
+\o           16).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/16/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 16) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 17) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "9u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/17/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/17/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 17)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:04:14 2025
+\o End netlisting May  1 14:04:14 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3
+\o           17).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/17/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 17) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 18) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "9.5u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/18/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/18/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 18)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:04:19 2025
+\o End netlisting May  1 14:04:19 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3
+\o           18).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/18/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 18) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 19) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var W = "10u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/19/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/19/Folded_Cascoded_AMP_Lib:Sizing_Bench:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 19)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May  1 14:04:24 2025
+\o End netlisting May  1 14:04:24 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ] for Point ID (3
+\o           19).
+\o 
+\o Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench/adexl/results/data/Interactive.3/19/Folded_Cascoded_AMP_Lib:Sizing_Bench:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 19) on testbench [
+\o           Folded_Cascoded_AMP_Lib:Sizing_Bench:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Job 32 timed out after no activity in 300 seconds.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o Loading lce.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
+\# Memory report: on exit            288 MB, process size 1,231 MB at UTC 2025.05.01 18:09:29.294
+\# Memory report: peak usage         288 MB, process size 1,231 MB

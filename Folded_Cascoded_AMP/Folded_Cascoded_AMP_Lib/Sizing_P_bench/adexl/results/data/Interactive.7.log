@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri May  2 01:46:45 2025 
+Best design point: 1
+Design specs: 
+	Folded_Cascoded_AMP_Lib:Sizing_P_bench:1	corner	Nominal - 
+Design parameters: 
+	Lp		400n
+	Vds		825m
+	Vgs		0
+	Wp		10u
+
+Interactive.7
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.7 completed. 
+Current time: Fri May  2 01:46:51 2025 

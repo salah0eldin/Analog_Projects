@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = Folded_Cascoded_AMP_Lib
-	Cell         = Sizing_bench_7_8
+	Cell         = Sizing_Bench_N
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = Folded_Cascoded_AMP_Lib:Sizing_bench_7_8:1_none_Interactive.24
-	Results DB   = /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_bench_7_8/adexl/results/data/Interactive.24.rdb
-	Results Dir  = /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_bench_7_8/adexl/results/data/Interactive.24/1/Folded_Cascoded_AMP_Lib:Sizing_bench_7_8:1
-	Results Loc  = /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_bench_7_8/adexl/results/data
+	State Name   = Folded_Cascoded_AMP_Lib:Sizing_Bench_N:1_none_Interactive.0
+	Results DB   = /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_Bench_N/adexl/results/data/Interactive.0.rdb
+	Results Dir  = /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench_N/adexl/results/data/Interactive.0/1/Folded_Cascoded_AMP_Lib:Sizing_Bench_N:1
+	Results Loc  = /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench_N/adexl/results/data
 	Project Dir  = /home/cadence/simulation
-	Setup DB loc = /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_bench_7_8/adexl
+	Setup DB loc = /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/Sizing_Bench_N/adexl
 	File Encoding = 0
 
 
@@ -27,42 +27,48 @@
 
 
 
-*Info*    Run start for Point ID (4 1) on testbench [
-          Folded_Cascoded_AMP_Lib:Sizing_bench_7_8:1 ].
+*Info*    Run start for Point ID (0 1) on testbench [
+          Folded_Cascoded_AMP_Lib:Sizing_Bench_N:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var Vds = "1"
 Setting var Vgs = "0"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_bench_7_8/adexl/results/data/Interactive.24/1/Folded_Cascoded_AMP_Lib:Sizing_bench_7_8:1/netlist
+          /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench_N/adexl/results/data/Interactive.0/1/Folded_Cascoded_AMP_Lib:Sizing_Bench_N:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_bench_7_8/adexl/results/data/Interactive.24/1/Folded_Cascoded_AMP_Lib:Sizing_bench_7_8:1
+          /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench_N/adexl/results/data/Interactive.0/1/Folded_Cascoded_AMP_Lib:Sizing_Bench_N:1
 
 
-*Info*    Creating Netlist for Point ID (4 1)
+*Info*    Creating Netlist for Point ID (0 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 30 01:36:08 2025
-End netlisting Apr 30 01:36:08 2025
+Initializing the control file using cp:
+    cp /usr/local/cadence/IC617/tools.lnx86/dfII/etc/si/control.spectre /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench_N/adexl/results/data/Interactive.0/1/Folded_Cascoded_AMP_Lib:Sizing_Bench_N:1/netlist/control
+Copying Spectre source file 'spectre.inp'
+Copying Spectre command file 'spectre.sim'
+Begin Incremental Netlisting May  1 23:43:24 2025
+End netlisting May  1 23:43:24 2025
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+Netlisting Statistics:
+	Number of components:    3
+
+	Elapsed time:          1.0s (3.00/s)
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          Folded_Cascoded_AMP_Lib:Sizing_bench_7_8:1 ] for Point ID
-          (4 1).
+          Folded_Cascoded_AMP_Lib:Sizing_Bench_N:1 ] for Point ID (0
+          1).
 
-Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_bench_7_8/adexl/results/data/Interactive.24/1/Folded_Cascoded_AMP_Lib:Sizing_bench_7_8:1/psf.
+Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/Sizing_Bench_N/adexl/results/data/Interactive.0/1/Folded_Cascoded_AMP_Lib:Sizing_Bench_N:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -77,8 +83,8 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (4 1) on testbench [
-          Folded_Cascoded_AMP_Lib:Sizing_bench_7_8:1 ].
+*Info*    Run complete for Point ID (0 1) on testbench [
+          Folded_Cascoded_AMP_Lib:Sizing_Bench_N:1 ].
 
 
 

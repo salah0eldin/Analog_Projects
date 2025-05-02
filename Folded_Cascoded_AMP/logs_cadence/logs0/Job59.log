@@ -1,0 +1,310 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = Folded_Cascoded_AMP_Lib
+	Cell         = FinalCircuit
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Folded_Cascoded_AMP_Lib:FinalCircuit:1_none_Interactive.0
+	Results DB   = /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.0.rdb
+	Results Dir  = /home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.0/1/Folded_Cascoded_AMP_Lib:FinalCircuit:1
+	Results Loc  = /home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data
+	Project Dir  = /home/cadence/simulation
+	Setup DB loc = /home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl
+	File Encoding = 0
+
+
+*Info*    Spectre controlMode is set "batch".
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [
+          Folded_Cascoded_AMP_Lib:FinalCircuit:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var V = "2.2"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.0/1/Folded_Cascoded_AMP_Lib:FinalCircuit:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.0/1/Folded_Cascoded_AMP_Lib:FinalCircuit:1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Initializing the control file using cp:
+    cp /usr/local/cadence/IC617/tools.lnx86/dfII/etc/si/control.spectre /home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.0/1/Folded_Cascoded_AMP_Lib:FinalCircuit:1/netlist/control
+Copying Spectre source file 'spectre.inp'
+Copying Spectre command file 'spectre.sim'
+Begin Incremental Netlisting May  1 19:46:10 2025
+End netlisting May  1 19:46:10 2025
+
+Netlisting Statistics:
+	Number of components:   24
+
+	Elapsed time:          1.0s (24.00/s)
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          Folded_Cascoded_AMP_Lib:FinalCircuit:1 ] for Point ID (0 1).
+
+Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.0/1/Folded_Cascoded_AMP_Lib:FinalCircuit:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre in `Folded_Cascoded_AMP', during
+          circuit read-in.
+Error found by spectre in
+          `Folded_Cascoded_AMP', during circuit read-in.
+ERROR
+          (SFE-23): "input.scs" 14: The instance `M11' is referencing
+          an undefined model or subcircuit, `nch_33_mac'. Either
+          include the file containing t
+he definition of
+          `nch_33_mac', or define `nch_33_mac' before running the
+          simulation.
+ERROR (SFE-23): "input.scs" 17: The instance
+          `M10' is referencing an undefined model or subcircuit,
+          `nch_33_mac'. Either include the file containing t
+he
+          definition of `nch_33_mac', or define `nch_33_mac' before
+          running the simulation.
+ERROR (SFE-23): "input.scs" 20: The
+          instance `M9' is referencing an undefined model or
+          subcircuit, `nch_33_mac'. Either include the file
+          containing th
+e definition of `nch_33_mac', or define
+          `nch_33_mac' before running the simulation.
+ERROR (SFE-23):
+          "input.scs" 23: The instance `M8' is referencing an
+          undefined model or subcircuit, `nch_33_mac'. Either include
+          the file containing th
+e definition of `nch_33_mac', or
+          define `nch_33_mac' before running the simulation.
+ERROR
+          (SFE-23): "input.scs" 26: The instance `M5' is referencing
+          an undefined model or subcircuit, `nch_33_mac'. Either
+          include the file containing th
+e definition of
+          `nch_33_mac', or define `nch_33_mac' before running the
+          simulation.
+ERROR (SFE-23): "input.scs" 29: The instance
+          `M4' is referencing an undefined model or subcircuit,
+          `nch_33_mac'. Either include the file containing th
+e
+          definition of `nch_33_mac', or define `nch_33_mac' before
+          running the simulation.
+ERROR (SFE-23): "input.scs" 32: The
+          instance `M2' is referencing an undefined model or
+          subcircuit, `nch_33_mac'. Either include the file
+          containing th
+e definition of `nch_33_mac', or define
+          `nch_33_mac' before running the simulation.
+ERROR (SFE-23):
+          "input.scs" 35: The instance `M3' is referencing an
+          undefined model or subcircuit, `nch_33_mac'. Either include
+          the file containing th
+e definition of `nch_33_mac', or
+          define `nch_33_mac' before running the simulation.
+ERROR
+          (SFE-23): "input.scs" 38: The instance `M7' is referencing
+          an undefined model or subcircuit, `pch_33_mac'. Either
+          include the file containing th
+e definition of
+          `pch_33_mac', or define `pch_33_mac' before running the
+          simulation.
+ERROR (SFE-23): "input.scs" 41: The instance
+          `M6' is referencing an undefined model or subcircuit,
+          `pch_33_mac'. Either include the file containing th
+e
+          definition of `pch_33_mac', or define `pch_33_mac' before
+          running the simulation.
+ERROR (SFE-23): "input.scs" 44: The
+          instance `M0' is referencing an undefined model or
+          subcircuit, `pch_33_mac'. Either include the file
+          containing th
+e definition of `pch_33_mac', or define
+          `pch_33_mac' before running the simulation.
+ERROR (SFE-23):
+          "input.scs" 47: The instance `M1' is referencing an
+          undefined model or subcircuit, `pch_33_mac'. Either include
+          the file containing th
+e definition of `pch_33_mac', or
+          define `pch_33_mac' before running the simulation.
+
+
+
+
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [
+          Folded_Cascoded_AMP_Lib:FinalCircuit:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var V = "2.2"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.0/1/Folded_Cascoded_AMP_Lib:FinalCircuit:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.0/1/Folded_Cascoded_AMP_Lib:FinalCircuit:1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Begin Incremental Netlisting May  1 19:46:13 2025
+End netlisting May  1 19:46:13 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          Folded_Cascoded_AMP_Lib:FinalCircuit:1 ] for Point ID (0 1).
+
+Delete psf data in /home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.0/1/Folded_Cascoded_AMP_Lib:FinalCircuit:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre in `Folded_Cascoded_AMP', during
+          circuit read-in.
+Error found by spectre in
+          `Folded_Cascoded_AMP', during circuit read-in.
+ERROR
+          (SFE-23): "input.scs" 14: The instance `M11' is referencing
+          an undefined model or subcircuit, `nch_33_mac'. Either
+          include the file containing t
+he definition of
+          `nch_33_mac', or define `nch_33_mac' before running the
+          simulation.
+ERROR (SFE-23): "input.scs" 17: The instance
+          `M10' is referencing an undefined model or subcircuit,
+          `nch_33_mac'. Either include the file containing t
+he
+          definition of `nch_33_mac', or define `nch_33_mac' before
+          running the simulation.
+ERROR (SFE-23): "input.scs" 20: The
+          instance `M9' is referencing an undefined model or
+          subcircuit, `nch_33_mac'. Either include the file
+          containing th
+e definition of `nch_33_mac', or define
+          `nch_33_mac' before running the simulation.
+ERROR (SFE-23):
+          "input.scs" 23: The instance `M8' is referencing an
+          undefined model or subcircuit, `nch_33_mac'. Either include
+          the file containing th
+e definition of `nch_33_mac', or
+          define `nch_33_mac' before running the simulation.
+ERROR
+          (SFE-23): "input.scs" 26: The instance `M5' is referencing
+          an undefined model or subcircuit, `nch_33_mac'. Either
+          include the file containing th
+e definition of
+          `nch_33_mac', or define `nch_33_mac' before running the
+          simulation.
+ERROR (SFE-23): "input.scs" 29: The instance
+          `M4' is referencing an undefined model or subcircuit,
+          `nch_33_mac'. Either include the file containing th
+e
+          definition of `nch_33_mac', or define `nch_33_mac' before
+          running the simulation.
+ERROR (SFE-23): "input.scs" 32: The
+          instance `M2' is referencing an undefined model or
+          subcircuit, `nch_33_mac'. Either include the file
+          containing th
+e definition of `nch_33_mac', or define
+          `nch_33_mac' before running the simulation.
+ERROR (SFE-23):
+          "input.scs" 35: The instance `M3' is referencing an
+          undefined model or subcircuit, `nch_33_mac'. Either include
+          the file containing th
+e definition of `nch_33_mac', or
+          define `nch_33_mac' before running the simulation.
+ERROR
+          (SFE-23): "input.scs" 38: The instance `M7' is referencing
+          an undefined model or subcircuit, `pch_33_mac'. Either
+          include the file containing th
+e definition of
+          `pch_33_mac', or define `pch_33_mac' before running the
+          simulation.
+ERROR (SFE-23): "input.scs" 41: The instance
+          `M6' is referencing an undefined model or subcircuit,
+          `pch_33_mac'. Either include the file containing th
+e
+          definition of `pch_33_mac', or define `pch_33_mac' before
+          running the simulation.
+ERROR (SFE-23): "input.scs" 44: The
+          instance `M0' is referencing an undefined model or
+          subcircuit, `pch_33_mac'. Either include the file
+          containing th
+e definition of `pch_33_mac', or define
+          `pch_33_mac' before running the simulation.
+ERROR (SFE-23):
+          "input.scs" 47: The instance `M1' is referencing an
+          undefined model or subcircuit, `pch_33_mac'. Either include
+          the file containing th
+e definition of `pch_33_mac', or
+          define `pch_33_mac' before running the simulation.
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.
