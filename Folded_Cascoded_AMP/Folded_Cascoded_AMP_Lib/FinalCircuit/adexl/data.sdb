@@ -63,6 +63,12 @@
 					<output>PSRR
 						<evalType>point</evalType>
 					</output>
+					<output>v("/VOUT" ?result "dc")
+						<evalType>point</evalType>
+					</output>
+					<output>waveVsWave(?x v("/VOUT" ?result "dc") ?y (v("/VOUT" ?result "dc") / VDC("/net4")))
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
@@ -80,7 +86,7 @@
 				</dependentTests>
 			</var>
 			<var>VIDAC
-				<value>1</value>
+				<value>0</value>
 				<dependentTests>
 					<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
 				</dependentTests>
@@ -106,446 +112,6 @@
 		</plottingoptions>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.47
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test>Folded_Cascoded_AMP_Lib:FinalCircuit:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>FinalCircuit</value>
-							</option>
-							<option>lib
-								<value>Folded_Cascoded_AMP_Lib</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Folded_Cascoded_AMP_Lib:FinalCircuit:1_none_Interactive.47</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>FinalCircuit</value>
-							</option>
-							<option>lib
-								<value>Folded_Cascoded_AMP_Lib</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>VICAC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VICDC
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VIDAC
-						<value>1</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VIDDC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Fri May 2 16:35:40 2025</timestamp>
-			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.47.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.47.rdb</simresults>
-			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_163540801</localpsfdir>
-			<psfdir>/home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.47</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.47</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.47.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.47.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.48
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test>Folded_Cascoded_AMP_Lib:FinalCircuit:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>FinalCircuit</value>
-							</option>
-							<option>lib
-								<value>Folded_Cascoded_AMP_Lib</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Folded_Cascoded_AMP_Lib:FinalCircuit:1_none_Interactive.48</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>FinalCircuit</value>
-							</option>
-							<option>lib
-								<value>Folded_Cascoded_AMP_Lib</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>VICAC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VICDC
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VIDAC
-						<value>1</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VIDDC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mon May 5 15:36:54 2025</timestamp>
-			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.48.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.48.rdb</simresults>
-			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_153654442</localpsfdir>
-			<psfdir>/home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.48</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.48</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.48.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.48.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.49
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test>Folded_Cascoded_AMP_Lib:FinalCircuit:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>FinalCircuit</value>
-							</option>
-							<option>lib
-								<value>Folded_Cascoded_AMP_Lib</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Folded_Cascoded_AMP_Lib:FinalCircuit:1_none_Interactive.49</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>FinalCircuit</value>
-							</option>
-							<option>lib
-								<value>Folded_Cascoded_AMP_Lib</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>VICAC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VICDC
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VIDAC
-						<value>1</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VIDDC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mon May 5 15:37:52 2025</timestamp>
-			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.49.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.49.rdb</simresults>
-			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_153752565</localpsfdir>
-			<psfdir>/home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.49</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.49</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.49.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.49.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.50
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test>Folded_Cascoded_AMP_Lib:FinalCircuit:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>FinalCircuit</value>
-							</option>
-							<option>lib
-								<value>Folded_Cascoded_AMP_Lib</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Folded_Cascoded_AMP_Lib:FinalCircuit:1_none_Interactive.50</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>FinalCircuit</value>
-							</option>
-							<option>lib
-								<value>Folded_Cascoded_AMP_Lib</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>PM
-								<evalType>point</evalType>
-							</output>
-							<output>GM
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-				</tests>
-				<vars>
-					<var>VICAC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VICDC
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VIDAC
-						<value>1</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VIDDC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mon May 5 15:55:13 2025</timestamp>
-			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.50.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.50.rdb</simresults>
-			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_155513957</localpsfdir>
-			<psfdir>/home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.50</psfdir>
-			<simdir>$AXL_PROJECT_DIR/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.50</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.50.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.50.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
 		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.51
 			<checkpoint>
 				<corners>
@@ -1245,6 +811,510 @@
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
 			<runlog>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.56.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.56.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.57
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>Folded_Cascoded_AMP_Lib:FinalCircuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>FinalCircuit</value>
+							</option>
+							<option>lib
+								<value>Folded_Cascoded_AMP_Lib</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Folded_Cascoded_AMP_Lib:FinalCircuit:1_none_Interactive.57</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>FinalCircuit</value>
+							</option>
+							<option>lib
+								<value>Folded_Cascoded_AMP_Lib</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>PM
+								<evalType>point</evalType>
+							</output>
+							<output>GM
+								<evalType>point</evalType>
+							</output>
+							<output>CMRR
+								<evalType>point</evalType>
+							</output>
+							<output>PSRR
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>VICAC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICDC
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIDAC
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIDDC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Tue May  6 00:33:15 2025
+</timestamp>
+			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.57.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.57.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_003316029</localpsfdir>
+			<psfdir>/home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.57</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.57</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.57.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.57.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.58
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>Folded_Cascoded_AMP_Lib:FinalCircuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>FinalCircuit</value>
+							</option>
+							<option>lib
+								<value>Folded_Cascoded_AMP_Lib</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Folded_Cascoded_AMP_Lib:FinalCircuit:1_none_Interactive.58</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>FinalCircuit</value>
+							</option>
+							<option>lib
+								<value>Folded_Cascoded_AMP_Lib</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>PM
+								<evalType>point</evalType>
+							</output>
+							<output>GM
+								<evalType>point</evalType>
+							</output>
+							<output>CMRR
+								<evalType>point</evalType>
+							</output>
+							<output>PSRR
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>VICAC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICDC
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIDAC
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIDDC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Tue May  6 00:40:28 2025
+</timestamp>
+			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.58.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.58.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_004029013</localpsfdir>
+			<psfdir>/home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.58</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.58</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.58.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.58.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.59
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>Folded_Cascoded_AMP_Lib:FinalCircuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>FinalCircuit</value>
+							</option>
+							<option>lib
+								<value>Folded_Cascoded_AMP_Lib</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Folded_Cascoded_AMP_Lib:FinalCircuit:1_none_Interactive.59</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>FinalCircuit</value>
+							</option>
+							<option>lib
+								<value>Folded_Cascoded_AMP_Lib</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>PM
+								<evalType>point</evalType>
+							</output>
+							<output>GM
+								<evalType>point</evalType>
+							</output>
+							<output>CMRR
+								<evalType>point</evalType>
+							</output>
+							<output>PSRR
+								<evalType>point</evalType>
+							</output>
+							<output>v("/VOUT" ?result "dc")
+								<evalType>point</evalType>
+							</output>
+							<output>waveVsWave(?x v("/VOUT" ?result "dc") ?y (v("/VOUT" ?result "dc") / VDC("/net4")))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>VICAC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICDC
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIDAC
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIDDC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Tue May  6 01:50:30 2025
+</timestamp>
+			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.59.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.59.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_015031537</localpsfdir>
+			<psfdir>/home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.59</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.59</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.59.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.59.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.60
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>Folded_Cascoded_AMP_Lib:FinalCircuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>FinalCircuit</value>
+							</option>
+							<option>lib
+								<value>Folded_Cascoded_AMP_Lib</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Folded_Cascoded_AMP_Lib:FinalCircuit:1_none_Interactive.60</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>FinalCircuit</value>
+							</option>
+							<option>lib
+								<value>Folded_Cascoded_AMP_Lib</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>PM
+								<evalType>point</evalType>
+							</output>
+							<output>GM
+								<evalType>point</evalType>
+							</output>
+							<output>CMRR
+								<evalType>point</evalType>
+							</output>
+							<output>PSRR
+								<evalType>point</evalType>
+							</output>
+							<output>v("/VOUT" ?result "dc")
+								<evalType>point</evalType>
+							</output>
+							<output>waveVsWave(?x v("/VOUT" ?result "dc") ?y (v("/VOUT" ?result "dc") / VDC("/net4")))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>VICAC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICDC
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIDAC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIDDC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">Folded_Cascoded_AMP_Lib:FinalCircuit:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Tue May  6 01:56:16 2025
+</timestamp>
+			<resultsname>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.60.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.60.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_015617330</localpsfdir>
+			<psfdir>/home/cadence/simulation/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.60</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.60</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/Desktop/Analog_Projects/Folded_Cascoded_AMP/Folded_Cascoded_AMP_Lib/FinalCircuit/adexl/results/data/Interactive.60.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.60.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

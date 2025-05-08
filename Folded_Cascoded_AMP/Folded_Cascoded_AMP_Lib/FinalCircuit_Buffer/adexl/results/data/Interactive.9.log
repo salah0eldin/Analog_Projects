@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue May  6 02:30:24 2025 
+Best design point: 1
+Design specs: 
+	Folded_Cascoded_AMP_Lib:FinalCircuit_Buffer:1	corner	Nominal - 
+Design parameters: 
+	VIN		1
+
+Interactive.9
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.9 completed. 
+Current time: Tue May  6 02:30:33 2025 
