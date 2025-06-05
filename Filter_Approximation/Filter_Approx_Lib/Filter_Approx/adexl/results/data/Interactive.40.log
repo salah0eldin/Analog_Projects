@@ -1,0 +1,32 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Jun  5 09:35:21 2025 
+Best design point: 1
+Design specs: 
+	Filter_Approx_Lib:Filter_Approx:1	corner	C2 - 
+	Filter_Approx_Lib:Filter_Approx:1	corner	C3 - 
+	Filter_Approx_Lib:Filter_Approx:1	corner	Nominal - 
+Design parameters: 
+	C1		1p
+	C2		1p
+	C3		1p
+	C_BW		0
+	H01		497m
+	H02		688m
+	H03		360m
+	Q1		3.653
+	Q2		7.673
+	Q3		7.678
+	R1		5.625k
+	R2		7.785k
+	R3		4.073k
+	R_BW		0
+	Vin_AC		0
+	VDD		1
+	GM		10k
+
+Interactive.40
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.40 completed. 
+Current time: Thu Jun  5 09:35:48 2025 

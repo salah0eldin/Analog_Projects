@@ -1,0 +1,4 @@
+SOFTINCLUDE /usr/local/cadence/IC617/share/cdssetup/cds.lib
+DEFINE Filter_Approx /home/cadence/Desktop/Analog_Projects/Filter_Approximation/Filter_Approx
+DEFINE Filter_Approx_Lib /home/cadence/Desktop/Analog_Projects/Filter_Approximation/Filter_Approx_Lib
+DEFINE proj1 /home/cadence/Desktop/Analog_Projects/Universal_Biquadratic_Filter/proj1

@@ -1,0 +1,102 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = Filter_Approx_Lib
+	Cell         = Filter_Approx
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Filter_Approx_Lib:Filter_Approx:1_none_Interactive.18
+	Results DB   = /home/cadence/Desktop/Analog_Projects/Filter_Approximation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.18.rdb
+	Results Dir  = /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.18/1/Filter_Approx_Lib:Filter_Approx:1
+	Results Loc  = /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data
+	Project Dir  = /home/cadence/simulation
+	Setup DB loc = /home/cadence/Desktop/Analog_Projects/Filter_Approximation/Filter_Approx_Lib/Filter_Approx/adexl
+	File Encoding = 0
+
+
+*Info*    Spectre controlMode is set "batch".
+
+
+
+
+
+
+*Info*    Run start for Point ID (7 1) on testbench [
+          Filter_Approx_Lib:Filter_Approx:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var C1 = "1p"
+Setting var C2 = "1p"
+Setting var C3 = "1p"
+Setting var C_BW = "0"
+Setting var H01 = "0.5"
+Setting var H02 = "0.5"
+Setting var H03 = "0.5"
+Setting var Q1 = "3.68"
+Setting var Q2 = "7.66"
+Setting var Q3 = "7.9"
+Setting var R1 = "5.773k"
+Setting var R2 = "8.164k"
+Setting var R3 = "4.082k"
+Setting var R_BW = "0"
+Setting var VDD = "1"
+Setting var Vin_AC = "1"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.18/1/Filter_Approx_Lib:Filter_Approx:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.18/1/Filter_Approx_Lib:Filter_Approx:1
+
+
+*Info*    Creating Netlist for Point ID (7 1)
+
+generate netlist...
+Begin Incremental Netlisting Jun  5 02:24:01 2025
+End netlisting Jun  5 02:24:01 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          Filter_Approx_Lib:Filter_Approx:1 ] for Point ID (7 1).
+
+Delete psf data in /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.18/1/Filter_Approx_Lib:Filter_Approx:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (7 1) on testbench [
+          Filter_Approx_Lib:Filter_Approx:1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

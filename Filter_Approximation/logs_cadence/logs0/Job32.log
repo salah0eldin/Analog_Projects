@@ -1,0 +1,320 @@
+\# Program start time UTC 2025.06.05 13:10:55.481
+\# Local time Thursday 5 June 2025, 9:10 am
+\o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 11/09/2015 12:45 (sjfnl165) $
+\o Hierarchy:		/usr/local/cadence/IC617/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.7-64b.78  (64-bit addresses)
+\# Command line:	/usr/local/cadence/IC617/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso1518 -mpshost berkeley -davinciService DaVinciService_1518_1749110914 -log /home/cadence/Desktop/Analog_Projects/Filter_Approximation/logs_cadence/logs0/Job32.log -licenseLockFileName /home/cadence/Desktop/Analog_Projects/Filter_Approximation/.tmp_cadence/.berkeley_1518 -nograph -nostdin -axlChildIdFlag 32
+\# Host name (type):	berkeley (x86_64)
+\# Operating system:	Linux 3.16.0-11-amd64 #1 SMP Debian 3.16.84-1 (2020-06-09)
+\# Linux /etc/issue:	Debian GNU/Linux 8 \n \l
+\# X display name (WxH):	berkeley:80 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 5694)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        374 MB
+\# Available memory:	     14,092 MB
+\# System memory:	     16,042 MB
+\# Maximum memory size:	     15,748 MB
+\# Max mem available:	     14,172 MB
+\# Initial memory used:	         80 MB
+\#        process size:	        890 MB
+\# Qt version:		4.8.5
+\# Window Manager:	other
+\# User Name:		cadence
+\o Working Directory:	berkeley:/home/cadence/Desktop/Analog_Projects/Filter_Approximation
+\# Process Id:		5702
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\# Memory report: using         192 MB, process size 1,135 MB at UTC 2025.06.05 13:10:57.094
+\w *WARNING* The directory: '/home/cadence/Desktop/Analog_Projects/Filter_Approximation/Filter_Approx' does not exist
+\w 	but was defined in libFile '/home/cadence/Desktop/Analog_Projects/Filter_Approximation/cds.lib' for Lib 'Filter_Approx'.
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\a _treeSetOpcGUI(t)
+\r t
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = Filter_Approx_Lib
+\o 	Cell         = Filter_Approx
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Filter_Approx_Lib:Filter_Approx:1_none_Interactive.39
+\o 	Results DB   = /home/cadence/Desktop/Analog_Projects/Filter_Approximation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.39.rdb
+\o 	Results Dir  = /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.39/1/Filter_Approx_Lib:Filter_Approx:1
+\o 	Results Loc  = /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data
+\o 	Project Dir  = /home/cadence/simulation
+\o 	Setup DB loc = /home/cadence/Desktop/Analog_Projects/Filter_Approximation/Filter_Approx_Lib/Filter_Approx/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o Loading viva.cxt 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\w *WARNING* The directory: '/home/cadence/Desktop/Analog_Projects/Filter_Approximation/Filter_Approx' does not exist
+\w 	but was defined in libFile '/home/cadence/Desktop/Analog_Projects/Filter_Approximation/cds.lib' for Lib 'Filter_Approx'.
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (16 1) on testbench [
+\o           Filter_Approx_Lib:Filter_Approx:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var C1 = "1p "
+\o Setting var C2 = "1p "
+\o Setting var C3 = "1p "
+\o Setting var C_BW = "0"
+\o Setting var GM = "10000"
+\o Setting var H01 = "0.497"
+\o Setting var H02 = "0.688"
+\o Setting var H03 = "0.36"
+\o Setting var Q1 = "3.653"
+\o Setting var Q2 = "7.673"
+\o Setting var Q3 = "7.678"
+\o Setting var R1 = "5625"
+\o Setting var R2 = "7785"
+\o Setting var R3 = "4072.65"
+\o Setting var R_BW = "0"
+\o Setting var VDD = "1"
+\o Setting var Vin_AC = "0"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.39/1/Filter_Approx_Lib:Filter_Approx:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.39/1/Filter_Approx_Lib:Filter_Approx:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (16 1)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Begin Incremental Netlisting Jun  5 09:11:00 2025
+\o End netlisting Jun  5 09:11:00 2025
+\o Loading monte.cxt 
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Filter_Approx_Lib:Filter_Approx:1 ] for Point ID (16 1).
+\o 
+\o Delete psf data in /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.39/1/Filter_Approx_Lib:Filter_Approx:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\# Available memory:         13,893 MB at UTC 2025.06.05 13:11:05.483
+\# Memory report: Maximum memory size now 14,178 MB at UTC 2025.06.05 13:11:05.483
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (16 1) on testbench [
+\o           Filter_Approx_Lib:Filter_Approx:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (16 2) on testbench [
+\o           Filter_Approx_Lib:Filter_Approx:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var C1 = "1.15p"
+\o Setting var C2 = "1.15p"
+\o Setting var C3 = "1.15p"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.39/2/Filter_Approx_Lib:Filter_Approx:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.39/2/Filter_Approx_Lib:Filter_Approx:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (16 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jun  5 09:11:06 2025
+\o End netlisting Jun  5 09:11:06 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Filter_Approx_Lib:Filter_Approx:1 ] for Point ID (16 2).
+\o 
+\o Delete psf data in /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.39/2/Filter_Approx_Lib:Filter_Approx:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (16 2) on testbench [
+\o           Filter_Approx_Lib:Filter_Approx:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (16 3) on testbench [
+\o           Filter_Approx_Lib:Filter_Approx:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var C1 = "0.85p"
+\o Setting var C2 = "0.85p"
+\o Setting var C3 = "0.85p"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.39/3/Filter_Approx_Lib:Filter_Approx:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.39/3/Filter_Approx_Lib:Filter_Approx:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (16 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Jun  5 09:11:09 2025
+\o End netlisting Jun  5 09:11:09 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           Filter_Approx_Lib:Filter_Approx:1 ] for Point ID (16 3).
+\o 
+\o Delete psf data in /home/cadence/simulation/Filter_Approx_Lib/Filter_Approx/adexl/results/data/Interactive.39/3/Filter_Approx_Lib:Filter_Approx:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (16 3) on testbench [
+\o           Filter_Approx_Lib:Filter_Approx:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Job 32 timed out after no activity in 300 seconds.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o Loading lce.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
